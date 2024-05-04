@@ -17,7 +17,7 @@
 <ul>
     <li><strong>Express</strong>: A web application framework for Node.js.</li>
     <li><strong>bcrypt</strong>: A library for hashing passwords.</li>
-    <li><strong>Sequelize</strong>: A promise-based Node.js ORM for MySQL, PostgreSQL, MariaDB, SQLite, and Microsoft SQL Server.</li>
+    <li><strong>mongoose</strong>: An Object Data Modeling (ODM) library for MongoDB and Node.js.</li>
     <li><strong>dotenv</strong>: A zero-dependency module for loading environment variables from a <code>.env</code> file into <code>process.env</code>.</li>
     <li><strong>multer</strong>: A middleware for handling <code>multipart/form-data</code>, primarily used for file uploads.</li>
     <li><strong>cors</strong>: A middleware for enabling Cross-Origin Resource Sharing (CORS) in Express.js applications.</li>
@@ -28,7 +28,7 @@
 <ol>
     <li><strong>Express Setup</strong>: The server is initialized using Express.</li>
     <li><strong>Environment Variables</strong>: Environment variables are loaded from a <code>.env</code> file using <code>dotenv</code>.</li>
-    <li><strong>Database Connection</strong>: Connection to a MySQL database is established using Sequelize.</li>
+    <li><strong>Database Connection</strong>: Connection to a MongoDB database is established using the <code>connection</code> object.</li>
     <li><strong>Multer Storage Configuration</strong>: Multer middleware is configured to store uploaded files in memory.</li>
     <li><strong>CORS Setup</strong>: Cross-Origin Resource Sharing is enabled using the <code>cors</code> middleware.</li>
     <li><strong>Server Port</strong>: The server listens on port 8080.</li>
